@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "Thin";
+    src: url(Fonts/Inter-Thin.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "SemiBold";
+    src: url(Fonts/Inter-SemiBold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Bold";
+    src: url(Fonts/Inter-Bold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "ExtraBold";
+    src: url(Fonts/Inter-ExtraBold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Black";
+    src: url(Fonts/Inter-Black.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Regular";
+    src: url(Fonts/Inter-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Medium";
+    src: url(Fonts/Inter-Medium.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Light";
+    src: url(Fonts/Inter-Light.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "ExtraLight";
+    src: url(Fonts/Inter-ExtraLight.ttf) format("truetype");
+}

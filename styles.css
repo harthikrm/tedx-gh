@@ -1,0 +1,98 @@
+@import "fonts.css";
+
+/* Global */
+
+html{
+    font-size: 100%;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: calc(16px + 0.3vw);
+    line-height: 1.3;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+}
+
+/* Header */
+
+#PageTag{
+    color: white;
+    font-size: calc(10px + 1vw);
+    font-family: 'Medium';
+}
+
+.icon{
+    filter: invert(91%) sepia(100%) saturate(0%) hue-rotate(206deg) brightness(108%) contrast(101%);
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+}
+
+ul li{
+    list-style: none;
+    text-align: center;
+    display: block;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+header{
+    display: grid;
+    grid-template-columns: minmax(100px, 1fr) 1fr minmax(100px, 1fr);
+    padding: 50px, 72px;
+    align-items: center;
+}
+
+#theme-heading{
+    font-family: 'SemiBold';
+    font-size: calc(1.2em + 1vw);
+    color: #EB0028;
+}
+
+#theme-content{
+    font-family: 'Light';
+    font-size: calc(12px + 0.5vw);
+    color: #fff;
+}
+
+#theme-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding: 0 0;
+}
+
+/* Main Body */
+
+#Logo{
+    max-width: 650px;
+    width: 100%;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 2vw 1vw;
+}
+
+/* Tickets announcement */
+
+#tickets{
+    font-size: calc(2em + 0.5vw);
+    font-family: 'Semibold';
+    text-align: center;
+    color: #EB0028;
+}
+
+
+
