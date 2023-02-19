@@ -1,0 +1,221 @@
+@import "fonts.css";
+
+/* Global */
+
+html{
+    font-size: 100%;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: calc(16px + 0.3vw);
+    line-height: 1.3;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    font-family: 'Regular';
+    color: #fff;
+}
+
+/* Header */
+
+#PageTag{
+    color: white;
+    font-size: calc(10px + 1vw);
+    font-family: 'Medium';
+    padding: 0 4vw;
+}
+
+.icon{
+    filter: invert(91%) sepia(100%) saturate(0%) hue-rotate(206deg) brightness(108%) contrast(101%);
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    background: rgba(29, 29, 29, 0.8);
+    border-radius: 50px;
+    padding: 2px 0;
+    overflow: auto;
+}
+
+nav ul li{
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+    padding: 10px 10px;
+    cursor: pointer;
+
+}
+
+header{
+    display: grid;
+    grid-template-columns: minmax(100px, 1fr) 1fr minmax(100px, 1fr);
+    align-items: center;
+}
+
+/* Main Body */
+
+#Logo{
+    max-width: 600px;
+    width: 100%;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 2vw 1vw;
+}
+
+#theme-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding: 0 0;
+}
+
+#theme-heading{
+    font-family: 'SemiBold';
+    font-size: calc(1.2em + 1vw);
+    color: #EB0028;
+}
+
+#theme-content{
+    font-family: 'Light';
+    font-size: calc(12px + 0.5vw);
+    color: #fff;
+}
+
+#line{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    height: 0px;
+    border: 1px dashed #EB0028;
+}
+
+.button{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EB0028;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: calc(12px + 0.5vw);
+    font-family: 'Medium';
+    cursor: pointer;
+    width: fit-content;
+    padding: 10px 20px;
+}
+
+/* Section - Landing Page */
+
+#head1, #head2{
+    font-family: 'SemiBold';
+    font-size: calc(16px + 1vw);
+    color: #EB0028;
+    letter-spacing: 0.1em;
+}
+
+#answer1, #answer2{
+    font-family: 'Light';
+    font-size: calc(12px + 0.5vw);
+    color: #fff;
+}
+
+.box{
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#box1, #box2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0;
+}
+
+/* Query */
+
+.query{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0;
+    background: rgba(255, 255, 255, 0.2);
+    background-size: auto;
+    border-radius: 30px;
+}
+
+.saying{
+    font-family: "Light";
+    font-size: 1em;
+    padding: 0 0;
+}
+
+.person{
+    font-family: "Light";
+    font-size: 1rem;
+    color:#EB0028;
+    padding: 0 0;
+}
+
+/* FOOTER */
+
+footer{
+    background: rgba(255, 255, 255, 0.1);;
+}
+
+footer .handles .text{
+    font-family: 'Medium';
+    font-size: calc(12px + 0.5vw);
+    color: #fff;
+    padding: 0 0;
+}
+
+footer ul{
+    display: flex;
+    justify-content: left;
+}
+
+footer ul li{
+    list-style: none;
+    text-align: center;
+    display: block;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+
+/* Tickets announcement */
+
+#tickets{
+    font-size: calc(2em + 0.5vw);
+    font-family: 'Semibold';
+    text-align: center;
+    color: #EB0028;
+}
+
+
+main img{
+    width: 100vw;
+}
+
+main .speakers img{
+    width: 100vw;
+    align-self: center;
+}
